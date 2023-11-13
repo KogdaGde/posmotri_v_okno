@@ -166,7 +166,6 @@ ol {
   flex-direction: row;
   justify-content: space-between;
   gap: 15px;
-  padding-bottom: 6.5px;
 }
 
 .search-form__pseudo-checkbox {
