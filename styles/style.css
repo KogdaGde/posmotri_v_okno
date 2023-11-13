@@ -73,6 +73,7 @@ ol {
   grid-template-columns: 711fr 399fr;
   gap: 30px;
   max-block-size: 100%;
+  margin: 0;
 }
 
 .result {
@@ -166,6 +167,7 @@ ol {
   flex-direction: row;
   justify-content: space-between;
   gap: 15px;
+  padding-bottom: 5px;
 }
 
 .search-form__pseudo-checkbox {
