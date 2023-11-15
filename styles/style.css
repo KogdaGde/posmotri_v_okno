@@ -53,14 +53,13 @@ ol {
 
 .title {
   margin-bottom: 26px;
-  font-family: Oswald;
+  font-family: Oswald,  sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
   color: #fff;
-  max-height: 210px;
 }
 
 .content__accent {
@@ -95,8 +94,10 @@ ol {
 }
 
 .result__video {
-  max-height: 386px;
-  min-width: 711px;
+  inline-size: 711px;
+  max-block-size: 386px;
+  /* max-height: 386px;
+  min-width: 711px; */
   object-fit: cover;
   object-position: center;
 }
@@ -296,6 +297,7 @@ ol {
 .content__video-card-title {
   text-transform: uppercase;
   margin-bottom: 6px;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
